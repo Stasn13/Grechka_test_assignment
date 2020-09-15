@@ -1,13 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de58ccb7-a0ad-401b-8d14-ea9c00b54772" name="Default Changelist" comment="" />
+    <list default="true" id="de58ccb7-a0ad-401b-8d14-ea9c00b54772" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/my-app/yarn.lock" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hV4k3b4XCZpJAF5tZACgtyimKU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,8 +40,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ui-news" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -29,6 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600083065143</updated>
       <workItem from="1600083071911" duration="894000" />
+      <workItem from="1600168109205" duration="1440000" />
     </task>
     <servers />
   </component>
