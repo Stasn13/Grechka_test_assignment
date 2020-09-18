@@ -2,18 +2,47 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de58ccb7-a0ad-401b-8d14-ea9c00b54772" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ui-news/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-news/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-news/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/.tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Layout/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/actions/comments.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/actions/postById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/actions/posts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/actions/userById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/constants/comments.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/constants/postById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/constants/posts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/constants/userById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/reducers/comments.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/reducers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/reducers/postById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/reducers/posts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/reducers/userById.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/sagas/comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/sagas/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/sagas/postById.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/sagas/posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/Redux/sagas/userById.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/components/Comments.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/components/Loader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/pages/404/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/pages/NewsFeed/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/pages/NewsOverview/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/pages/Profile/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/pages/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/utils/api.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/utils/formatDate.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-news/src/utils/formatTextHtml.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-news/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-news/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui-news/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-news/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-news/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-news/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-news/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-news/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-news/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-news/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ui-news/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui-news/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/src/Redux/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui-news/src/Layout/Header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-news/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-news/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui-news/src/serviceWorker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui-news/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ui-news/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +66,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.scopes" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/ui-news/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ui-news" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/ui-news/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -59,8 +99,27 @@
       <updated>1600083065143</updated>
       <workItem from="1600083071911" duration="894000" />
       <workItem from="1600168109205" duration="1440000" />
-      <workItem from="1600171960085" duration="1483000" />
+      <workItem from="1600171960085" duration="15541000" />
+      <workItem from="1600198070699" duration="1170000" />
+      <workItem from="1600240890616" duration="2000" />
+      <workItem from="1600240917662" duration="41000" />
+      <workItem from="1600242049120" duration="86000" />
+      <workItem from="1600242182465" duration="63000" />
+      <workItem from="1600242269428" duration="28000" />
+      <workItem from="1600242570709" duration="12000" />
+      <workItem from="1600242938573" duration="80000" />
+      <workItem from="1600243092051" duration="189000" />
+      <workItem from="1600243324401" duration="11000" />
+      <workItem from="1600244255639" duration="48809000" />
     </task>
+    <task id="LOCAL-00001" summary="add eslint and prettier">
+      <created>1600173916517</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600173916517</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -68,27 +127,57 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add eslint and prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="add eslint and prettier" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600172213668">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600198228971">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1600172213668" />
-    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1600173559451">
+    <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1600198228971" />
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600330331642">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1600173559451" />
-    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1600173559449">
+    <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1600330331642" />
+    <state x="209" y="0" key="CommitChangelistDialog2" timestamp="1600173916118">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1600173559449" />
-    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1600173559448">
+    <state x="209" y="0" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1600173916118" />
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom" timestamp="1600411870975">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1600173559448" />
-    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1600173559450">
+    <state width="1259" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1600411870975" />
+    <state width="1259" height="212" key="GridCell.Tab.0.center" timestamp="1600411870973">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1600173559450" />
+    <state width="1259" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1600411870973" />
+    <state width="1259" height="212" key="GridCell.Tab.0.left" timestamp="1600411870972">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1600411870972" />
+    <state width="1259" height="212" key="GridCell.Tab.0.right" timestamp="1600411870974">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1259" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1600411870974" />
+    <state x="141" y="23" key="SettingsEditor" timestamp="1600178474002">
+      <screen x="0" y="23" width="1280" height="700" />
+    </state>
+    <state x="141" y="23" key="SettingsEditor/0.23.1280.700@0.23.1280.700" timestamp="1600178474002" />
+    <state x="233" y="13" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1600183867063">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="233" y="13" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.800@0.0.1280.800" timestamp="1600183867063" />
+    <state x="526" y="84" width="598" height="490" key="find.popup" timestamp="1600430579127">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="526" y="84" width="598" height="490" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1600430579127" />
+    <state x="305" y="185" key="run.anything.popup" timestamp="1600183134758">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="185" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1600183134758" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1600178223776">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1600178223776" />
   </component>
 </project>
