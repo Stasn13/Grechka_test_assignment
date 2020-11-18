@@ -1,18 +1,26 @@
 # Grechka_test_assignment
 test task for position of react developer
 
-to run project follow next steps:
+### To run project follow next steps:
 
-git clone https://github.com/Stasn13/Grechka_test_assignment.git
-
-$ cd ui-news
-$ npm install 
-$ npm run dev
+<pre>
+$ git clone https://github.com/Stasn13/Grechka_test_assignment.git <br/>
+$ cd ui-news <br/>
+$ npm install  <br/>
+$ npm run dev <br/>
+</pre>
 
 or using yarn
 
-$ cd ui-news
-$ yarn 
-$ yarn dev
+<pre>
+$ cd ui-news <br/>
+$ yarn <br/>
+$ yarn dev <br/>
+</pre>
 
-dont forget to run server in express-server-news
+### To run the local Node.js server follow this steps
+
+<pre>
+$ cd express-server-news <br/>
+$ node index.js  <br/>
+</pre>
