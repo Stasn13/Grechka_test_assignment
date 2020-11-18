@@ -24,3 +24,10 @@ $ yarn dev <br/>
 $ cd express-server-news <br/>
 $ node index.js  <br/>
 </pre>
+
+## Technologies:
+
+-React<br/>
+-Redux/Saga<br/>
+-Material UI kit<br/>
+-SCSS<br/>
