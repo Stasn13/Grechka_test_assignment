@@ -3,7 +3,7 @@ test task for position of react developer
 
 to run project follow next steps:
 
-git clone https://github.com/Stasn13/DevelopsToday_testAssignment.git
+git clone https://github.com/Stasn13/Grechka_test_assignment.git
 
 $ cd ui-news
 $ npm install 
