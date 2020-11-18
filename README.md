@@ -31,3 +31,4 @@ $ node index.js
 -Redux/Saga<br/>
 -Material UI kit<br/>
 -SCSS<br/>
+-TypeScript<br/>
