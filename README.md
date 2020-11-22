@@ -52,3 +52,4 @@ $ node index.js
 
 -Project based on styled components, that means if project will raise, developer should split styles from component at the separate file.<br/>
 
+-Current project has setuped ts-lint and prettier, so it will help to avoid different errors.
